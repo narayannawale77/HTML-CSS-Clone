@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    
+}
+#fake-Nevigation{
+    width: 98.9%;
+    height: 60px;
+}
+#Nevigation{
+    position: fixed;
+    width: 98.9%;
+    height: 60px;
+    background: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    justify-content: space-around;
+    
+}
+#logo{
+    height: 49px;
+    width: 114px;    
+    padding-right: 6px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* Box2 */
+
+#deliver{
+    color: #cccccc;
+    padding: 12px;
+    margin-left: 4px;
+}
+#location{
+    display: flex;
+    margin-top: -9px;
+}
+#india{
+    font-weight: bold;
+}
+/* Box3 */
+#nav-search{
+    width: 750px;
+    height: 40px;
+    display: flex;
+    border-radius: 4px;
+    border: none;
+    justify-content: space-evenly;
+}
+#nav-search:hover{
+    border: 1.5px solid #fab153;
+}
+#All{
+    width: 50px;
+    background: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none; 
+}
+#All:hover{
+    background: #d0cece;
+}
+#input-search{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+#search-icon{
+    width: 50px;
+    border: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#search-icon:hover{
+    background: #eaae60;
+}
+/* Box 4 */
+#sign{
+    padding: 7px;
+}
+span{
+    font-size: 12px;
+    font-weight: 700;
+}
+.sec{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Box5 */
+#order{
+    padding: 7px;
+}
+/* last Box */
+#cart i{
+    padding: 7px;
+    font-size:41px ;
+}
+#cart {
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+/* strip */
+#strip{
+    width: 100%;
+    height: 39px;
+    background: #232f3e;
+    display: flex;
+    align-items: center;
+}
+#part1{
+    display: flex;
+    align-items: center;
+    
+}
+#part2{
+    width: 70%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 1%;
+}
+.padd{
+    padding: 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    
+}
+.padd:hover{
+    border: 1.5px solid white;
+}
+
+#part3{
+    height: 100%;
+}
+#part3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part3:hover{
+    border: 1.5px solid white;
+}
+
+
+#hero-img {
+    background-image: url("Hero_Image.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+#shop-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /*flex contain wrap into multiple line*/
+    justify-content: space-evenly;
+    background: #e2e7e6;
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background: white;
+    
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img {
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: rgb(32, 182, 242);
+}
+
+/* For second line shop boxes */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.b1{
+    height: 30%;
+    width: 45%;
+    margin-right: 15px;
+    margin-top: 30px;
+    
+}
+.b1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.a{
+    margin-top: 40px;
+    padding-bottom:30px ;
+}
+.b1 p{
+    font-size: 13px;
+    color: black;
+}
+footer{
+    margin-top: 15px;
+}
+.pannel1{
+    background: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    height: 50px;
+}
+
+.pannel2{
+    height: 300px;
+    
+    background: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+ul{
+    margin-top: 40px;
+    
+}
+ul p{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    color: #DDDDDD;
+    font-size:14px ;
+    margin-top: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.pannel3{
+    height: 60px;
+    background: #0f1111;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+}
+.line1{
+    padding: 5px;
+}
+.line2{
+    padding: 5px;
+}

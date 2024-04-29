@@ -1,0 +1,348 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    height: 15vh;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+
+    z-index: 10;
+   
+}
+#fakeheader{
+    height: 15vh;
+    width: 100vw;
+    background-color: white;
+    z-index: 10;
+    
+}
+#logo{
+    height: 55%;
+     
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    color: darkblue; 
+}
+.text:hover{
+    color: rgb(46, 46, 240);
+    
+}
+#contact{
+    align-items: center;
+    font-weight: lighter;
+    color: rgb(93, 92, 92);
+    margin-left: 10%; 
+}
+#contact:hover{
+    color: black;
+}
+
+#search{
+   color: darkblue;
+   font-weight: bold;
+   padding: 13px;
+   border-radius: 50%;
+   margin-left: -2%;
+   
+}
+#search:hover{
+    background: lightblue;  
+ }
+
+#global{
+    color: rgb(12, 12, 156);
+    padding: 13px;
+    border-radius: 50%;
+    margin-left: -2%;
+}
+#global:hover{
+    background: lightblue;  
+ }
+#login{
+    display: flex;
+    color: rgb(12, 12, 156);
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-left: -2%;
+    
+}
+#login:hover{
+    background: lightblue;
+}
+#try {
+    background: rgb(4, 130, 4);
+    padding: 12px 22px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+
+    margin-left: -1%;
+}
+#try:hover{
+    background: darkgreen;
+}
+#page1{
+    height: 85vh;
+    width: 100vw;
+    background: rgb(77, 77, 172);
+}
+.annoucment{
+    height: 8%;
+    width: 100%;
+    background: #010351;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+#p{
+    margin-right: 4%;
+}
+.content{
+    height: 80vh;
+    width: 100%;
+    background: #d07878;
+    display: flex;
+   
+}
+#image{
+    height:80vh;
+    width: 100%;
+
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#info{
+    position: absolute; 
+    width: 32%;
+    height: 60%;
+    top: 30%;
+    left: 7%;
+}
+#bigHeding{
+    width: 100%;
+    height: 45%;
+    
+    font-size: 55px;
+    font-weight: 600;
+}
+#para{
+    width: 100%;
+    height: 25%;
+    margin-top: 35px;
+    font-size: x-large;
+        
+}
+#buts {
+    width: 100%;
+    height: 21.3%;
+    
+    display: flex;
+    align-items: center;
+
+}
+.ButsCommon{
+    width: 30%; /* Adjust width as needed */
+    height: 60%; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; /* Added border-radius for rounded corners */
+    margin: 0 10px; /* Added margin to space out the buttons */
+    margin-left: -0.4%;
+    font-size: 18px; 
+       
+}
+#buts1{
+    background: rgb(0, 123, 255);
+    font-weight:bold;
+    color: white;
+}
+#buts1:hover{
+    background: rgb(4, 92, 245);
+}
+#buts2{
+    border: solid 2px rgb(4, 92, 245);
+    color:rgb(4, 92, 245);   
+}
+#buts2:hover{
+    border-color: rgb(15, 14, 14);
+    color:rgb(15, 14, 14);
+    background: rgb(149, 212, 233);
+}
+
+#vidio {
+    position: absolute;
+    top: 37%; /* Adjust top position as needed */
+    right: 5%; /* Adjust right position as needed */
+    width: 40%; /* Adjust width as needed */
+    height: 50%; /* Adjust height as needed */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better visibility */
+    z-index: 1; /* Ensure the video overlaps other content */
+    overflow: hidden; /*Hide overflowing content */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+/* Additional styles for video content */
+#vidio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure video fills the container */
+}
+#chat {
+    width: 10%; /* Adjust width as needed */
+    height: 7%;
+    position: fixed;
+    bottom: 20px; /* Adjust distance from bottom as needed */
+    right: 35px; /* Adjust distance from right as needed */
+    color: white; /* Set text color */
+    font-size: 18px; /* Set font size */
+    background: rgb(3, 172, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#chat:hover{
+    background: rgb(2, 155, 215);
+}
+#page2{
+    height: 80vh;
+    width: 100vw;
+    /* background: rgb(87, 85, 85); */
+    
+}
+.BigHeading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 180px;
+    height: 10%;
+    margin-bottom: 5%;
+    
+
+}
+.Boxes{
+    display: flex;
+    justify-content: space-evenly;   
+
+}
+.box{
+    width: 18%;
+    height: 380px;
+    border: 1px solid rgb(234, 230, 230);
+    border-radius: 10px;
+    
+}
+.b1{
+    width: 100%;
+    height: 40%;
+}
+.b1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.b2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.b2 h2{
+    font-size:20px ;
+    color: #032D60;
+}
+.b2 h2:hover{
+    color: #1b96ff;
+}
+.b2 p{
+    color: #181818;
+    font-size: 16px;
+}
+.b2 u{
+    color: #032D60;
+    font-size: 16px;
+}
+.b2 u:hover{
+    text-decoration-line: none;
+}
+
+#page3{
+    width: 100%;
+    height: 80%;
+    
+}
+.bigImage{
+    width: 100%;
+    height: 80%;
+    
+}
+.bigImage img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+footer{
+    height: 20%;
+    width: 100%;
+    background-color:#032D60; 
+    font-size: 16px;
+    color: #ffffff;
+}
+.Div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.P1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+    margin-right: 50px;
+    font-size: 18px;
+    
+}
+.P1 p{
+    padding: 10px;
+}
+.P2 a{
+    padding-right: 10px;
+    text-decoration: underline;
+}
+.Div2{
+    text-align: center;
+}
